@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "jest"
+    "test": "jest",
+    "test:dev": "jest --watchAll --collectCoverage"
   },
   "dependencies": {
     "react": "^18.3.1",
